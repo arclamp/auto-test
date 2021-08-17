@@ -22,4 +22,4 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          ~/auto shipit -vv
+          ~/auto shipit
