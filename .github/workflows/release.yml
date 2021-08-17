@@ -12,6 +12,15 @@ jobs:
       - name: Prepare repository
         run: git fetch --unshallow --tags
 
+      - name: Set up Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: Install node-based plugins
+        run: |
+          sudo npm install -g @auto-it/conventional-commits
+
       - name: Download latest auto
         run: |
           auto_download_url="$(curl -fsSL https://api.github.com/repos/intuit/auto/releases/latest | jq -r '.assets[] | select(.name == "auto-linux.gz") | .browser_download_url')"
