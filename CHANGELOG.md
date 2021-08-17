@@ -1,3 +1,15 @@
+# v0.2.0 (Tue Aug 17 2021)
+
+#### 🚀 Enhancement
+
+- Testing multiple commits in a PR [#2](https://github.com/arclamp/auto-test/pull/2) ([@waxlamp](https://github.com/waxlamp))
+
+#### Authors: 1
+
+- Roni Choudhury ([@waxlamp](https://github.com/waxlamp))
+
+---
+
 # v0.1.0 (Tue Aug 17 2021)
 
 :tada: This release contains work from a new contributor! :tada:
