@@ -3,7 +3,8 @@
     "git-tag",
     "all-contributors",
     "first-time-contributor",
-    "released"
+    "released",
+    "conventional-commits"
   ],
   "owner": "arclamp",
   "repo": "auto-test",
