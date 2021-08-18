@@ -26,13 +26,28 @@ jobs:
           wget -O- "$auto_download_url" | gunzip > ~/auto
           chmod a+x ~/auto
 
-      - name: Calculate version updates
+      - name: Calculate new version
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           ~/auto version
+
+      - name: Dry run changelog generation
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
           ~/auto changelog -d
+
+      - name: Dry run release process
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
           ~/auto release -d
+
+      - name: Dry run automated release loop
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
           ~/auto shipit -d
 
   release:
