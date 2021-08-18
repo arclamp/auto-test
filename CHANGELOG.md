@@ -1,3 +1,15 @@
+# v0.3.0 (Wed Aug 18 2021)
+
+#### 🚀 Enhancement
+
+- Enable conventional-commits plugin [#3](https://github.com/arclamp/auto-test/pull/3) ([@waxlamp](https://github.com/waxlamp))
+
+#### Authors: 1
+
+- Roni Choudhury ([@waxlamp](https://github.com/waxlamp))
+
+---
+
 # v0.2.0 (Tue Aug 17 2021)
 
 #### 🚀 Enhancement
