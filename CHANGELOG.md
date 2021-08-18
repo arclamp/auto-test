@@ -1,3 +1,15 @@
+# v0.3.1 (Wed Aug 18 2021)
+
+#### 🐛 Bug Fix
+
+- Bugfixes [#4](https://github.com/arclamp/auto-test/pull/4) ([@waxlamp](https://github.com/waxlamp))
+
+#### Authors: 1
+
+- Roni Choudhury ([@waxlamp](https://github.com/waxlamp))
+
+---
+
 # v0.3.0 (Wed Aug 18 2021)
 
 #### 🚀 Enhancement
